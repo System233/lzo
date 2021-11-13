@@ -1,0 +1,8 @@
+.vscode
+build
+dist
+lzo-*
+lzo.egg*
+lzo.tar.gz
+tests
+lzo.c
