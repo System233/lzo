@@ -1,4 +1,11 @@
-#cython:language_level=3
+#
+#    This program is free software. It comes without any warranty, to
+#    the extent permitted by applicable law. You can redistribute it
+#    and/or modify it under the terms of the Do What The Fuck You Want
+#    To Public License, Version 2, as published by Sam Hocevar. See
+#    http://www.wtfpl.net/ for more details. 
+#
+# cython:language_level=3
 
 from cpython.mem cimport PyMem_Malloc, PyMem_Realloc, PyMem_Free
 from libc.string cimport memcpy 
@@ -446,7 +453,3 @@ lzo1y=Lzo1y();
 lzo1z=Lzo1z(); 
 lzo2a=Lzo2a();
 
-#__all__=[
-#    "lzo1","lzo1a","lzo1b","lzo1c","lzo1f","lzo1x","lzo1y","lzo1z","lzo2a",
-#    "Lzo1","Lzo1a","Lzo1b","Lzo1c","Lzo1f","Lzo1x","Lzo1y","Lzo1z","Lzo2a"
-#]
